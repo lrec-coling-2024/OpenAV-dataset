@@ -45,7 +45,7 @@ section {
 .dataset {
   padding: 50px 0 80px 0;
   border-bottom: 1px solid #363636;
-  border-top: 1px solid #363636;
+  /* border-top: 1px solid #363636; */
 }
 
 .dataset-section {
@@ -56,7 +56,7 @@ section {
 .examples {
   padding: 50px 0 80px 0;
   border-bottom: 1px solid #363636;
-  border-top: 1px solid #363636;
+  /* border-top: 1px solid #363636; */
 }
 
 .examples-section {
@@ -72,7 +72,18 @@ section {
 .software {
   padding: 50px 0 80px 0;
   border-bottom: 1px solid #363636;
-  border-top: 1px solid #363636;
+  /* border-top: 1px solid #363636; */
+}
+
+.conclusion-section {
+  padding: 0 24px;
+
+}
+
+.conclusion {
+  padding: 50px 0 80px 0;
+  border-bottom: 1px solid #363636;
+  /* border-top: 1px solid #363636; */
 }
 
 
@@ -81,7 +92,8 @@ section {
 }
 
 .architectures {
-  padding: 50px 0;
+  padding: 50px 0 80px 0;
+
 
   border-bottom: 1px solid #363636;
 
@@ -184,9 +196,6 @@ section {
   margin-top: 50px;
 }
 
-.architectures img {
-  margin-top: 50px;
-}
 
 .comp-container img {
     display: block;
